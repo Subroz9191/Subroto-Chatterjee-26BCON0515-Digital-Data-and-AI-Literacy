@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%">
+  <defs>
+    <linearGradient id="certBg" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#0b1120" />
+      <stop offset="50%" stop-color="#111827" />
+      <stop offset="100%" stop-color="#070c18" />
+    </linearGradient>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#38bdf8" />
+      <stop offset="50%" stop-color="#00f2fe" />
+      <stop offset="100%" stop-color="#0284c7" />
+    </linearGradient>
+  </defs>
+
+  <!-- Border & Background -->
+  <rect x="0" y="0" width="600" height="400" rx="16" fill="url(#certBg)" />
+  <rect x="20" y="20" width="560" height="360" rx="12" fill="none" stroke="#334155" stroke-width="2" />
+  <rect x="28" y="28" width="544" height="344" rx="8" fill="none" stroke="url(#goldGrad)" stroke-width="1.5" stroke-opacity="0.6" />
+
+  <!-- Corner Flourishes -->
+  <path d="M 36 60 L 36 36 L 60 36" fill="none" stroke="#00f2fe" stroke-width="3" />
+  <path d="M 564 60 L 564 36 L 540 36" fill="none" stroke="#00f2fe" stroke-width="3" />
+  <path d="M 36 340 L 36 364 L 60 364" fill="none" stroke="#00f2fe" stroke-width="3" />
+  <path d="M 564 340 L 564 364 L 540 364" fill="none" stroke="#00f2fe" stroke-width="3" />
+
+  <!-- Badge / Icon Header -->
+  <g transform="translate(300, 85)">
+    <circle cx="0" cy="0" r="32" fill="#0f172a" stroke="#00f2fe" stroke-width="2.5" />
+    <!-- C Logo Graphic -->
+    <text x="0" y="11" font-family="'JetBrains Mono', 'Segoe UI', monospace" font-size="34" font-weight="900" fill="#38bdf8" text-anchor="middle">C</text>
+  </g>
+
+  <!-- Title & Subtitle -->
+  <text x="300" y="145" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="13" font-weight="600" letter-spacing="4" fill="#94a3b8" text-anchor="middle">CERTIFICATE OF MASTERY</text>
+  <text x="300" y="175" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="20" font-weight="700" fill="#f8fafc" text-anchor="middle">C Programming &amp; Algorithmic Foundations</text>
+
+  <!-- Recipient -->
+  <text x="300" y="210" font-family="'Inter', 'Segoe UI', sans-serif" font-size="12" fill="#64748b" text-anchor="middle">PROUDLY PRESENTED TO</text>
+  <text x="300" y="240" font-family="'Outfit', 'Segoe UI', sans-serif" font-size="24" font-weight="700" fill="#38bdf8" text-anchor="middle">Subroto Chatterjee</text>
+  <line x1="180" y1="250" x2="420" y2="250" stroke="#334155" stroke-width="1.5" />
+
+  <text x="300" y="275" font-family="'Inter', 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">For demonstrated excellence in Pointer Arithmetic, Dynamic Memory Allocation,</text>
+  <text x="300" y="292" font-family="'Inter', 'Segoe UI', sans-serif" font-size="11" fill="#94a3b8" text-anchor="middle">Data Structures, and High-Performance System Programming in C</text>
+
+  <!-- Footer Info -->
+  <g transform="translate(70, 335)">
+    <line x1="0" y1="0" x2="130" y2="0" stroke="#475569" stroke-width="1" />
+    <text x="65" y="15" font-family="'Inter', 'Segoe UI', sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Academic Tech Council</text>
+  </g>
+
+  <!-- Seal in Center Bottom -->
+  <g transform="translate(300, 330)">
+    <circle cx="0" cy="0" r="22" fill="#0284c7" fill-opacity="0.15" stroke="#00f2fe" stroke-width="1.5" />
+    <text x="0" y="4" font-family="'Inter', sans-serif" font-size="8" font-weight="bold" fill="#38bdf8" text-anchor="middle">VERIFIED</text>
+  </g>
+
+  <g transform="translate(400, 335)">
+    <line x1="0" y1="0" x2="130" y2="0" stroke="#475569" stroke-width="1" />
+    <text x="65" y="15" font-family="'Inter', 'Segoe UI', sans-serif" font-size="9" fill="#94a3b8" text-anchor="middle">Cred ID: SC-C-2025-01</text>
+  </g>
+</svg>
